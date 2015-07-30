@@ -2,9 +2,11 @@
 
 ##  Basic initalization
 1. ```git init``` in the directory of the project you want to "cvs"
-2. ```git add <name> <git repository>```
-
-	e.g. ```git add git-learning https://github.com/Pr0curo/git-learning.git```
+2. add files to staging via ```git add .```
+3. do your initial commit ```git commit -m "initial commit"```  
+4. add your local repository to your remote repository via ```git remote add <name> <git repository>```  
+	e.g. ```git remote add git-learning https://github.com/Pr0curo/git-learning.git```
+5. ```git push origin master```
 
 ## Working with Branches
 - show all local branches ```git branch``` lists all branches  

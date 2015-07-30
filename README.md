@@ -16,6 +16,12 @@
 
 - to add the new local branch to the remote repository use ```git push -u origin <branch-name>```
 
+make the changes and do whatever you want
+
+- to merge the branch change to the destination branch via ```git checkout <destination-branch>``` and then ```git merge <source-branch>```
+
+after this you can delete the local branch via ```git branch -d <branch-name>``` and to remove the remote branch use ```git push origin :<source-branch>```
+
 ---
 ```git log``` for commit history
 ```git log --pretty=oneline --abbrev-commit``` for short (oneliner) commit history

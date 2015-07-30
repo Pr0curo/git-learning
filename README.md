@@ -10,11 +10,11 @@
 ## Branches
 - show all local branches ```git branch``` lists all branches
 - create a new branch ```git branch <branch-name>```
-- to change to the new branch ```git checkout <branch-name>
+- to change to the new branch ```git checkout <branch-name>```
 
 - to create a new branch and check it out in one step use ```git checkout -b <branch-name>
 
-
+- to add the new local branch to the remote repository use ```git push -u origin <branch-name>```
 
 ---
 ```git log``` for commit history

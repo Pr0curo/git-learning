@@ -6,3 +6,10 @@
 	```git add git-laerning https://github.com/Pr0curo/git-learning.git```
 3. whatever
 
+
+
+
+---
+```git log``` for commit history
+```git log --pretty=oneline --abbrev-commit``` for short (oneliner) commit history
+

@@ -21,7 +21,7 @@ make the changes and do whatever you want
 after this you can delete the local branch via ```git branch -d <branch-name>``` and to remove the remote branch use ```git push origin :<source-branch>```  
 
 ## Show Log
-```git log``` for commit history
-```git log --pretty=oneline --abbrev-commit``` for short (oneliner) commit history
-```git log --oneline``` einfacher
+ ```git log``` for commit history  
+ ```git log --pretty=oneline --abbrev-commit``` for short (oneliner) commit history  
+ ```git log --oneline``` einfacher  
 

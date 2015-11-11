@@ -23,4 +23,5 @@ after this you can delete the local branch via ```git branch -d <branch-name>```
 ## Show Log
 ```git log``` for commit history
 ```git log --pretty=oneline --abbrev-commit``` for short (oneliner) commit history
+```git log --oneline``` einfacher
 

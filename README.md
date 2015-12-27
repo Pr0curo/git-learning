@@ -38,9 +38,9 @@ after this you can delete the local branch via ```git branch -d <branch-name>```
 
 ###
 
-``` git branch -d <lokaler branchname> ``` mit Warnung falls nicht merged
-``` git branch -D <lokaler branchname> ``` ohne Warnung falls nicht merged
+``` git branch -d <lokaler branchname> ``` mit Warnung falls nicht merged  
+``` git branch -D <lokaler branchname> ``` ohne Warnung falls nicht merged  
 
-## mehr kram im master!
+## mehr kram im master!  
 
-hier so text
+hier so text  

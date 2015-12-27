@@ -36,7 +36,7 @@ after this you can delete the local branch via ```git branch -d <branch-name>```
 
 ``` git push origin --delete <branchname> ```
 
-###
+### Lokal  
 
 ``` git branch -d <lokaler branchname> ``` mit Warnung falls nicht merged  
 ``` git branch -D <lokaler branchname> ``` ohne Warnung falls nicht merged  

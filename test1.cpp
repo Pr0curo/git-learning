@@ -6,9 +6,9 @@ int main()
 
     int count(10);
 
-    for( int counter=1; counter <= count; counter++ )
+    for( int counter=0; counter < count; counter++ )
     {
-        std::cout << counter << std::endl;
+        std::cout << counter+1 << std::endl;
     }
 
     std::cout << "counting finished" << std::endl;

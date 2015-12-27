@@ -30,4 +30,13 @@ after this you can delete the local branch via ```git branch -d <branch-name>```
 1. change to the branche you are currently working on, and thats master it is pulled from is behind the current master
 2. rebase the master via ```git rebase master```
 
-ende rebasing
+## Deleting Branches
+
+### Remote
+
+``` git push origin --delete <branchname> ```
+
+###
+
+``` git branch -d <lokaler branchname> ``` mit Warnung falls nicht merged
+``` git branch -D <lokaler branchname> ``` ohne Warnung falls nicht merged

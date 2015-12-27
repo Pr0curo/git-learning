@@ -25,3 +25,9 @@ after this you can delete the local branch via ```git branch -d <branch-name>```
  ```git log --pretty=oneline --abbrev-commit``` for short (oneliner) commit history  
  ```git log --oneline``` einfacher  
 
+## Rebasing
+
+1. change to the branche you are currently working on, and thats master it is pulled from is behind the current master
+2. rebase the master via ```git rebase master```
+
+ende rebasing
